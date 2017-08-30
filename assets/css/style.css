@@ -6,4 +6,7 @@
 	.is-sticky .full-sticky-menu .inner{
 		height: 160px !important;
 	}
+	.is-sticky .full-sticky-menu .navbar-nav{
+		margin-top: 60px !important;
+	}
 }

@@ -22,6 +22,19 @@ body{
 .hdr6{
 	background:transparent url("../images/hdr-6.png") no-repeat top center;
 }
+.soc_list > li > a{
+	background:transparent url("../images/soc-small.png") no-repeat;
+}
+.priceHeader .price{
+	background: transparent url("../images/priceheader-price.png") no-repeat center top;
+}
+.priceHeader{
+	background:transparent url("../images/priceheader-bg.png") repeat-x center top;
+}
+nav li {
+    background-color: #000;
+    border-radius: 5px;
+}
 @media (min-width: 990px){
 	.is-sticky .full-sticky-menu .inner{
 		height: 120px !important;

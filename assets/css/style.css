@@ -1,5 +1,7 @@
 
-
+.navbar-default .inner {
+    background: transparent url(../images/menu-bg.png) 
+}
 @media (min-width: 990px){
 	.is-sticky .full-sticky-menu .inner{
 		height: 120px !important;

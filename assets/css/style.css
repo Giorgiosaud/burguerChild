@@ -2,6 +2,12 @@
 .navbar-default .inner {
     background: transparent url(../images/menu-bg.png) 
 }
+.bg-1 {
+    background: transparent url(../images/bg-1.jpg) repeat-y top center;
+}
+.navbar-default .inner .btm{
+	background: transparent url(../images/menu-bg.png) repeat-x center -264px;
+}
 @media (min-width: 990px){
 	.is-sticky .full-sticky-menu .inner{
 		height: 120px !important;

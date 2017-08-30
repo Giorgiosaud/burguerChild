@@ -1,3 +1,9 @@
 .navbar-default .inner{
 	height: 188px;
 }
+
+@media (min-width: 990px){
+	.is-sticky .full-sticky-menu .inner{
+		height: 160px !important;
+	}
+}

@@ -1,4 +1,6 @@
-
+body{
+	background: transparent url(../images/bg-2.jpg) repeat-y top center;
+}
 .navbar-default .inner {
     background: transparent url(../images/menu-bg.png) 
 }

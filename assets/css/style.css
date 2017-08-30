@@ -37,6 +37,19 @@ body{
 .priceHeader:after{
 	background:transparent url("../images/priceheader-rt.png") no-repeat top center;
 }
+.prodBox .price{
+	background: #1c1a1b;
+    border: 1px solid #373431;
+}
+.btn-default {
+    background: #1d1b1c;
+}
+.menuBox .top{
+	background: transparent url("../images/menubox-top.png") no-repeat top center;
+}
+.bg-2.topOrnament:before{
+	background: transparent url(../images/bg-2-top.png) no-repeat top center;
+}
 nav li {
     background-color: #000;
     border-radius: 5px;

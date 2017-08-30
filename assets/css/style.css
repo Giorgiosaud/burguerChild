@@ -4,9 +4,6 @@
 
 @media (min-width: 990px){
 	.is-sticky .full-sticky-menu .inner{
-		height: 160px !important;
-	}
-	.is-sticky .full-sticky-menu .navbar-nav{
-		margin-top: 60px !important;
+		height: 120px !important;
 	}
 }

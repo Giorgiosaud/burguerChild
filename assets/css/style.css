@@ -31,6 +31,12 @@ body{
 .priceHeader{
 	background:transparent url("../images/priceheader-bg.png") repeat-x center top;
 }
+.priceHeader:before{
+	background:transparent url("../images/priceheader-lft.png") no-repeat top center;
+}
+.priceHeader:after{
+	background:transparent url("../images/priceheader-rt.png") no-repeat top center;
+}
 nav li {
     background-color: #000;
     border-radius: 5px;

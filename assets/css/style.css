@@ -8,6 +8,9 @@
 .navbar-default .inner .btm{
 	background: transparent url(../images/menu-bg.png) repeat-x center -264px;
 }
+.navbar-default .inner:before{
+	background: transparent url(../images/menu-bg-top.png) repeat-x center top;
+}
 @media (min-width: 990px){
 	.is-sticky .full-sticky-menu .inner{
 		height: 120px !important;

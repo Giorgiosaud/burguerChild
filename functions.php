@@ -8,4 +8,5 @@ function my_theme_enqueue_styles() {
         wp_get_theme()->get('Version')
     );
 }
+die(var_dump(apply_filters( 'ct_theme_loader.load_styles', true )));
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );

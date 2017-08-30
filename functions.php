@@ -7,6 +7,7 @@ function my_theme_enqueue_styles() {
         array( $parent_style ),
         wp_get_theme()->get('Version')
     );
+    wp_enqueue_style('childAssets',get_template_directory_uri().'/assets/css/style.css');
 }
 
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );

@@ -50,8 +50,32 @@ body{
 .bg-2.topOrnament:before{
 	background: transparent url(../images/bg-2-top.png) no-repeat top center;
 }
+.eventBox .date{
+	background: #1d1b1c;
+}
+.eventBox{
+	border:1px solid rgba(45, 42, 41, 0.5);
+}
+.eventBox hr{
+background: rgba(45, 41, 41, 0.5);
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+	background-color: #000;
+}
+.menuBox .inner .price{
+	color:#1b191a;
+}
+footer{
+	background: transparent url("../images/footer-bg-repeat.jpg") repeat top center;
+}
+footer:before{
+	background: transparent url("../images/footer-bg.jpg") repeat-x center top;
+}
+footer #toTop{
+	background: transparent url("../images/totop-btn.png") no-repeat center top;
+}
 nav li {
-    background-color: #000;
+    background-color: #424141;
     border-radius: 5px;
 }
 @media (min-width: 990px){

@@ -57,7 +57,7 @@ body{
 .eventBox .date{
 	background: #1d1b1c;
 }
-.eventBox{
+.eventBox,.easyBox{
 	border:1px solid rgba(45, 42, 41, 0.5);
 }
 .eventBox hr{

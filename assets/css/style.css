@@ -7,6 +7,9 @@ body{
 .bg-1 {
     background: transparent url(../images/bg-1.jpg) repeat-y top center;
 }
+.bg-2 {
+    background: transparent url(../images/bg-2.jpg) repeat-y top center;
+}
 .navbar-default .inner .btm{
 	background: transparent url(../images/menu-bg.png) repeat-x center -264px;
 }
@@ -50,6 +53,7 @@ body{
 .bg-2.topOrnament:before{
 	background: transparent url(../images/bg-2-top.png) no-repeat top center;
 }
+
 .eventBox .date{
 	background: #1d1b1c;
 }

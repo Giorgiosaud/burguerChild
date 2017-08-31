@@ -25,8 +25,19 @@ body{
 .hdr6{
 	background:transparent url("../images/hdr-6.png") no-repeat top center;
 }
-.soc_list > li > a{
-	background:transparent url("../images/soc-small.png") no-repeat;
+.soc_list > li > a {
+    color: #fff;
+    display: block;
+    width: 31px;
+    height: 31px;
+    background: transparent url(../images/soc-small.png) no-repeat;
+    background-position: center -33px;
+    background-size: 100%;
+    font-size: 16px;
+    line-height: 16px;
+    padding-top: 6px;
+    -webkit-transition: background-position 0.2s ease;
+    transition: background-position 0.2s ease;
 }
 .priceHeader .price{
 	background: transparent url("../images/priceheader-price.png") no-repeat center top;
@@ -68,6 +79,9 @@ background: rgba(45, 41, 41, 0.5);
 }
 .menuBox .inner .price{
 	color:#1b191a;
+}
+.galleryBox .top{
+	    background: transparent url(../images/gallerybox-top.png) no-repeat top center;
 }
 footer{
 	background: transparent url("../images/footer-bg-repeat.jpg") repeat top center;

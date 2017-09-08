@@ -59,7 +59,7 @@ class zpProductShortcode extends ctShortcodeQueryable  implements ctVisualCompos
         $price = str_replace('.', ',', $this->getFromArray($custom, 'price'));
         $productPrice = explode(",", $price);
 
-        $shortcode = $this->embedShortcode('product_box', array(
+        $shortcode = $this->embedShortcode('product_box_zp', array(
             'button_label' => $button_label,
             'button_link' => $button_link,
             'postscript' => $this->getFromArray($custom, 'postscript'),

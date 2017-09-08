@@ -61,12 +61,12 @@ class zpProductsShortcode extends ctShortcodeQueryable implements ctVisualCompos
             }
 
 
-            $productBoxHtml .= '[third_column sm="6"]';
+            $productBoxHtml .= '[half_column sm="6"]';
 
             //forward params
             $productBoxHtml .= $this->embedShortcode('ct_product', array_merge($attributes, array('id' => $p->ID, 'align' => $align, 'style' => $counter2, 'rounded' => $rounded, 'currency' => $currencyPerProd)));
 
-            $productBoxHtml .= '[/third_column]';
+            $productBoxHtml .= '[/half_column]';
 
             if ($counter2 == 3 || $counter == count($products)) {
                 $counter2 = 0;

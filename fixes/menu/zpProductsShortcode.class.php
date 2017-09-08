@@ -12,7 +12,7 @@ class zpProductsShortcode extends ctShortcodeQueryable implements ctVisualCompos
      */
     public function getName()
     {
-        return 'Products';
+        return 'Products Zonapro';
     }
 
     /**
@@ -64,7 +64,7 @@ class zpProductsShortcode extends ctShortcodeQueryable implements ctVisualCompos
             $productBoxHtml .= '[half_column sm="6"]';
 
             //forward params
-            $productBoxHtml .= $this->embedShortcode('ct_product', array_merge($attributes, array('id' => $p->ID, 'align' => $align, 'style' => $counter2, 'rounded' => $rounded, 'currency' => $currencyPerProd)));
+            $productBoxHtml .= $this->embedShortcode('zp_product', array_merge($attributes, array('id' => $p->ID, 'align' => $align, 'style' => $counter2, 'rounded' => $rounded, 'currency' => $currencyPerProd)));
 
             $productBoxHtml .= '[/half_column]';
 

@@ -11,3 +11,4 @@ function my_theme_enqueue_styles() {
 }
 
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
+include_once 'vc_templates/menu/zpProductsShortcode.class.php';

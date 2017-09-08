@@ -96,6 +96,12 @@ nav li {
     background-color: #424141;
     border-radius: 5px;
 }
+.prodboxZp img {
+    width: 100%;
+}
+.prodBox.prodboxZp {
+    width: 100%;
+}
 @media (min-width: 990px){
 	.is-sticky .full-sticky-menu .inner{
 		height: 120px !important;

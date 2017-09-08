@@ -111,6 +111,14 @@ nav li {
     margin: 3em auto;
     display: block;
 }
+footer {
+    min-height: auto;
+}
+footer .copyright{
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
 @media (min-width: 990px){
 	.is-sticky .full-sticky-menu .inner{
 		height: 120px !important;

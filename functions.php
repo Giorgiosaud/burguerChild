@@ -15,4 +15,5 @@ add_action( 'after_setup_theme', 'your_parent_theme_setup', 9 );
 function your_parent_theme_setup() {    
 	include_once 'fixes/menu/zpProductsShortcode.class.php';
 	include_once 'fixes/menu/zpProductShortcode.class.php';
+	include_once 'fixes/boxes/zpProductBoxShortcode.class.php';
 }

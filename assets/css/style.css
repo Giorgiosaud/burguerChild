@@ -102,6 +102,10 @@ nav li {
 .prodBox.prodboxZp {
     width: 100%;
 } 
+.prodBox.prodboxZp:after {
+    background-size: 100% 100%;
+    width: 100%;
+}
 @media (min-width: 990px){
 	.is-sticky .full-sticky-menu .inner{
 		height: 120px !important;

@@ -61,28 +61,29 @@ class zpMenuBoxItemShortcode extends ctShortcode implements ctVisualComposerShor
     $html .=$imageHtml;
     $html .='<div class="media-body">';
     $html .='<span class="title">' . $title . '</span><p>' . $content . '</p>';
-    var_dump($price);
-    $html.='<span class="price">';
+    if($price!=''){
+        $html.='<span class="price">';
 
-    if(ct_get_option('products_currency_position', 'before_price') == 'before_price' || ct_get_option('products_currency_position', 'before_price')=='' ){
-        $html.='<em>' . $currency . '</em>';
+        if(ct_get_option('products_currency_position', 'before_price') == 'before_price' || ct_get_option('products_currency_position', 'before_price')=='' ){
+            $html.='<em>' . $currency . '</em>';
+        }
+        else{
+            $html.= $price . $subprice;
+        } 
+        if(ct_get_option('products_currency_position', 'before_price') == 'before_price' || ct_get_option('products_currency_position', 'before_price')==''){
+            $html.= $price . $subprice;
+        }
+        else{ 
+            $html.='<em>' . $currency . '</em>';
+        }
+        $html.='</span>';
     }
-    else{
-        $html.= $price . $subprice;
-    } 
-    if(ct_get_option('products_currency_position', 'before_price') == 'before_price' || ct_get_option('products_currency_position', 'before_price')==''){
-        $html.= $price . $subprice;
-    }
-    else{ 
-        $html.='<em>' . $currency . '</em>';
-    }
-    $html.='</span>';
     $html.=$postscript;
     $html.='</div>';
     $html.='</div>';
     $html.=$separator;
 
-return do_shortcode($html);
+    return do_shortcode($html);
 }
 
 /**

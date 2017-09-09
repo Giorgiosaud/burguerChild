@@ -78,7 +78,7 @@ class zpMenuBoxItemShortcode extends ctShortcode implements ctVisualComposerShor
     $html.=$postscript;
     $html.='</div>';
     $html.='</div>';
-    $html=$separator;
+    $html.=$separator;
 
 return do_shortcode($html);
 }

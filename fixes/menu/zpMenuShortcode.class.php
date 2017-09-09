@@ -96,7 +96,7 @@ class zpMenuShortcode extends ctShortcodeQueryable implements ctVisualComposerSh
             $price = str_replace('.', ',', $custom['price'][0]);
             $productPrice = explode(",", $price);
 
-            $menuBoxHtml .= $this->embedShortcode('menu_box_item', array(
+            $menuBoxHtml .= $this->embedShortcode('menu_box_item_zp', array(
                     'thumb' => $thumb,
                     'image' => $imageSrc,
                     'separator' => $counter == count($products) ? 'no' : 'yes',

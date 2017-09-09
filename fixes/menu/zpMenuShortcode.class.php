@@ -21,7 +21,7 @@ class zpMenuShortcode extends ctShortcodeQueryable implements ctVisualComposerSh
      */
     public function getShortcodeName()
     {
-        return 'menu_zonapro';
+        return 'menu_zp';
     }
 
 

@@ -3,7 +3,7 @@
 /**
  * Pricelist shortcode
  */
-class ctMenuBoxItemShortcode extends ctShortcode implements ctVisualComposerShortcodeInterface {
+class zpMenuBoxItemShortcode extends ctShortcode implements ctVisualComposerShortcodeInterface {
 
     /**
      * Returns name
@@ -105,4 +105,4 @@ class ctMenuBoxItemShortcode extends ctShortcode implements ctVisualComposerShor
 	}
 }
 
-new ctMenuBoxItemShortcode();
+new zpMenuBoxItemShortcode();

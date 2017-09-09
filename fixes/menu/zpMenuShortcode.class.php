@@ -87,7 +87,7 @@ class zpMenuShortcode extends ctShortcodeQueryable implements ctVisualComposerSh
             $counter++;
             // var_dump($custom["currency"][0]);
             $postcriptText = (isset($custom["postscript"][0]) && $postscript == 'yes') ? $custom["postscript"][0] : "";
-            $currencyPerProd = (isset($custom["currency"][0]) && $currency_per_prod == 'yes') ? $custom["currency"][0] : ct_get_option('products_index_currency', '$');
+            $currencyPerProd = (isset($custom["currency"][0])) ? $custom["currency"][0] : ct_get_option('products_index_currency', '$');
 
             $imageSrc = ($images == "yes" ? ct_get_feature_image_src($p->ID, 'full') : '');
             $thumb = ($images == 'yes' ? ct_ct_product_featured_image2_src($p->ID, 'featured-image-ct-product-2') : '');

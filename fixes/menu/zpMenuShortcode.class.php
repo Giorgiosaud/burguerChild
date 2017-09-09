@@ -85,7 +85,7 @@ class zpMenuShortcode extends ctShortcodeQueryable implements ctVisualComposerSh
         foreach ($products as $p) {
             $custom = get_post_custom($p->ID);
             $counter++;
-            var_dump($custom["currency"][0]);
+            // var_dump($custom["currency"][0]);
             $postcriptText = (isset($custom["postscript"][0]) && $postscript == 'yes') ? $custom["postscript"][0] : "";
             $currencyPerProd = (isset($custom["currency"][0]) && $currency_per_prod == 'yes') ? $custom["currency"][0] : ct_get_option('products_index_currency', '$');
 

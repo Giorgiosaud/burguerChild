@@ -122,6 +122,10 @@ footer .copyright{
 	width: 100%;
 	text-align: center;
 }
+.media {
+    display: flex;
+    align-items: center;
+}
 @media (min-width: 990px){
 	.is-sticky .full-sticky-menu .inner{
 		height: 120px !important;

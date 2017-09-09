@@ -129,6 +129,24 @@ footer .copyright{
 .inner.mybgEvents {
     background-size: cover;
 }
+.hdr3 {
+    color:#fd1743;
+}
+.eventBox .time {
+    color: #fd1743;
+}
+.hdr3 a {
+    color: #ffd908;
+}
+.eventBox .place {
+    color: #ffd908;
+}
+.eventBox, .easyBox{
+	background:rgba(0, 0, 0, 0.7);
+}
+.eventBox .date {
+    color: rgb(253, 23, 67);
+}
 @media (min-width: 990px){
 	.is-sticky .full-sticky-menu .inner{
 		height: 120px !important;

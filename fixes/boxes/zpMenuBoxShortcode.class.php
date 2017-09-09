@@ -12,7 +12,7 @@ class zpMenuBoxShortcode extends ctShortcode implements ctVisualComposerShortcod
      * @return string|void
      */
     public function getName() {
-        return 'Menu Box';
+        return 'Menu Box Zp';
     }
 
     /**

@@ -126,6 +126,9 @@ footer .copyright{
     display: flex;
     align-items: center;
 }
+.inner.mybgEvents {
+    background-size: cover;
+}
 @media (min-width: 990px){
 	.is-sticky .full-sticky-menu .inner{
 		height: 120px !important;

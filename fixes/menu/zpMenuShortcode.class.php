@@ -109,7 +109,7 @@ class zpMenuShortcode extends ctShortcodeQueryable implements ctVisualComposerSh
         }
 
 
-        $menuBoxHtml .= '[/menu_box]';
+        $menuBoxHtml .= '[/menu_box_zp]';
 
         return do_shortcode($menuBoxHtml);
     }

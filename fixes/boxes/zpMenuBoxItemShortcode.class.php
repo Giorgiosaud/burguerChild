@@ -55,7 +55,7 @@ class zpMenuBoxItemShortcode extends ctShortcode implements ctVisualComposerShor
         $mainContainerAtts = array(
             'class' => array('media', $class)
         );
-
+        var_dump($price);
         $html = '
 			<div ' . $this->buildContainerAttributes($mainContainerAtts, $atts) . '>
 	           ' . $imageHtml . '

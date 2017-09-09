@@ -61,6 +61,7 @@ class zpMenuBoxItemShortcode extends ctShortcode implements ctVisualComposerShor
     $html .=$imageHtml;
     $html .='<div class="media-body">';
     $html .='<span class="title">' . $title . '</span><p>' . $content . '</p>';
+    var_dump($price);
     $html.='<span class="price">';
 
     if(ct_get_option('products_currency_position', 'before_price') == 'before_price' || ct_get_option('products_currency_position', 'before_price')=='' ){

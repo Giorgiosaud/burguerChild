@@ -65,7 +65,7 @@ class zpProductsShortcode extends ctShortcodeQueryable implements ctVisualCompos
                     break;
                 case 2:
                     $productBoxHtml .= '[half_column]';  
-                    break
+                    break;
                 default:
                     $productBoxHtml .= '[third_column sm="6"]';   
                     break;
@@ -78,7 +78,7 @@ class zpProductsShortcode extends ctShortcodeQueryable implements ctVisualCompos
                     break;
                 case 2:
                     $productBoxHtml .= '[/half_column]';  
-                    break
+                    break;
                 default:
                     $productBoxHtml .= '[/third_column]';   
                     break;

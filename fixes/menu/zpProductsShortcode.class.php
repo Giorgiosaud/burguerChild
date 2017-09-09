@@ -50,27 +50,34 @@ class zpProductsShortcode extends ctShortcodeQueryable implements ctVisualCompos
             $custom = get_post_custom($p->ID);
             $currencyPerProd = (isset($custom["currency"][0])) ? $custom["currency"][0] : ct_get_option('products_index_currency', '$');
 
-            $counter2++;
-            if ($counter2 == 1) {
+            $counter++;
+            if ($counter == 1) {
                 $productBoxHtml .= '[row]';
             }
             $align = '';
-            if ($counter2 == 1) {
+            if ($counter == 1) {
                 $align = 'left';
-            } elseif ($counter2 == 3) {
+            } elseif ($counter == 3) {
                 $align = 'right';
             }
 
-
-            $productBoxHtml .= '[half_column sm="6"]';
-
+            if($qtyProds>2){
+                $productBoxHtml .= '[half_column sm="6"]';
+            }
+            else{
+             $productBoxHtml .= '[third_column sm="6"]';   
+            }
             //forward params
             $productBoxHtml .= $this->embedShortcode('zp_product', array_merge($attributes, array('id' => $p->ID, 'align' => $align, 'style' => 3, 'rounded' => $rounded, 'currency' => $currencyPerProd)));
+            if($qtyProds>2){
+                $productBoxHtml .= '[/half_column]';
+            }
+            else{
+             $productBoxHtml .= '[/third_column]';   
+            }
 
-            $productBoxHtml .= '[/half_column]';
-
-            if ($counter2 == 2 || $counter == count($products)) {
-                $counter2 = 0;
+            if ($counter == 3 || $counter == count($products)) {
+                $counter = 0;
                 $productBoxHtml .= '[/row]';
             }
         }

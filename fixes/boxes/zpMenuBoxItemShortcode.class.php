@@ -72,7 +72,7 @@ class zpMenuBoxItemShortcode extends ctShortcode implements ctVisualComposerShor
         $html.= $price . $subprice;
     }
     else{ 
-        '<em>' . $currency . '</em>';
+        $html.='<em>' . $currency . '</em>';
     }
     $html.='</span>';
     $html.=$postscript;

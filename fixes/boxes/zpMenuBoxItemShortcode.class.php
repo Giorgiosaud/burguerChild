@@ -38,6 +38,7 @@ class zpMenuBoxItemShortcode extends ctShortcode implements ctVisualComposerShor
      */
 
     public function handle($atts, $content = null) {
+        var_dump($atts);
         extract(shortcode_atts($this->extractShortcodeAttributes($atts), $atts));
 
         $subprice = $subprice ? '<span>' . $subprice . '</span>' : '';

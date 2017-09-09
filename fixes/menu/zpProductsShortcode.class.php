@@ -59,17 +59,32 @@ class zpProductsShortcode extends ctShortcodeQueryable implements ctVisualCompos
             } elseif ($counter == 3) {
                 $align = 'right';
             }
-
-            if($qtyProds<=2){
-                $productBoxHtml .= '[full_column sm="6"]';
-            }
-            else{
-             $productBoxHtml .= '[third_column sm="6"]';   
+            switch ($qtyProds) {
+                case 1:
+                    $productBoxHtml .= '[full_column]';
+                    break;
+                case 2:
+                    $productBoxHtml .= '[half_column]';  
+                    break
+                default:
+                    $productBoxHtml .= '[third_column sm="6"]';   
+                    break;
             }
             //forward params
             $productBoxHtml .= $this->embedShortcode('zp_product', array_merge($attributes, array('id' => $p->ID, 'align' => $align, 'style' => 3, 'rounded' => $rounded, 'currency' => $currencyPerProd)));
+            switch ($qtyProds) {
+                case 1:
+                    $productBoxHtml .= '[/full_column]';
+                    break;
+                case 2:
+                    $productBoxHtml .= '[/half_column]';  
+                    break
+                default:
+                    $productBoxHtml .= '[/third_column]';   
+                    break;
+            }
             if($qtyProds<=2){
-                $productBoxHtml .= '[/full_column]';
+                $productBoxHtml .= '[/half_column]';
             }
             else{
              $productBoxHtml .= '[/third_column]';   

@@ -83,13 +83,7 @@ class zpProductsShortcode extends ctShortcodeQueryable implements ctVisualCompos
                     $productBoxHtml .= '[/third_column]';   
                     break;
             }
-            if($qtyProds<=2){
-                $productBoxHtml .= '[/half_column]';
-            }
-            else{
-             $productBoxHtml .= '[/third_column]';   
-            }
-
+            
             if ($counter == 3 || $counter == count($products)) {
                 $counter = 0;
                 $productBoxHtml .= '[/row]';

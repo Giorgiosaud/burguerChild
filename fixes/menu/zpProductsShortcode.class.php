@@ -45,7 +45,7 @@ class zpProductsShortcode extends ctShortcodeQueryable implements ctVisualCompos
         $counter2 = 0;
 
         $productBoxHtml = '';
-        var_dump(count($products));
+        $qtyProds=(count($products));
         foreach ($products as $p) {
             $custom = get_post_custom($p->ID);
             $currencyPerProd = (isset($custom["currency"][0])) ? $custom["currency"][0] : ct_get_option('products_index_currency', '$');

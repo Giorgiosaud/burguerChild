@@ -147,6 +147,9 @@ footer .copyright{
 .eventBox .date {
     color: rgb(253, 23, 67);
 }
+.priceHeader .rt,.priceHeader .lft{
+    min-width:0;
+}
 @media (min-width: 990px){
 	.is-sticky .full-sticky-menu .inner{
 		height: 120px !important;

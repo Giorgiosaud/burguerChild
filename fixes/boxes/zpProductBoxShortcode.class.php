@@ -44,7 +44,7 @@ class zpProductBoxShortcode extends ctShortcode implements ctVisualComposerShort
 
     public function handle($atts, $content = null)
     {
-        var_dump($atts);
+        // var_dump($atts);
         extract(shortcode_atts($this->extractShortcodeAttributes($atts), $atts));
 
         $mainContainerAtts = array(

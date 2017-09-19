@@ -1,5 +1,5 @@
 body{
-	background: transparent url(../images/bg-2.jpg) repeat-y top center;
+    background: transparent url(../images/bg-2.jpg) repeat-y top center;
 }
 .navbar-default .inner {
     background: transparent url(../images/menu-bg.png) 
@@ -11,19 +11,19 @@ body{
     background: transparent url(../images/bg-2.jpg) repeat-y top center;
 }
 .navbar-default .inner .btm{
-	background: transparent url(../images/menu-bg.png) repeat-x center -264px;
+    background: transparent url(../images/menu-bg.png) repeat-x center -264px;
 }
 .navbar-default .inner:before{
-	background: transparent url(../images/menu-bg-top.png) repeat-x center top;
+    background: transparent url(../images/menu-bg-top.png) repeat-x center top;
 }
 .hdr1{
-	background:transparent url("../images/hdr-1.png") no-repeat top center;
+    background:transparent url("../images/hdr-1.png") no-repeat top center;
 }
 .hdr4{
-	background:transparent url("../images/hdr-4.png") no-repeat top center;
+    background:transparent url("../images/hdr-4.png") no-repeat top center;
 }
 .hdr6{
-	background:transparent url("../images/hdr-6.png") no-repeat top center;
+    background:transparent url("../images/hdr-6.png") no-repeat top center;
 }
 .soc_list > li > a {
     color: #fff;
@@ -37,60 +37,61 @@ body{
     line-height: 16px;
     padding-top: 6px;
     -webkit-transition: background-position 0.2s ease;
+    -o-transition: background-position 0.2s ease;
     transition: background-position 0.2s ease;
 }
 .priceHeader .price{
-	background: transparent url("../images/priceheader-price.png") no-repeat center top;
+    background: transparent url("../images/priceheader-price.png") no-repeat center top;
 }
 .priceHeader{
-	background:transparent url("../images/priceheader-bg.png") repeat-x center top;
+    background:transparent url("../images/priceheader-bg.png") repeat-x center top;
 }
 .priceHeader:before{
-	background:transparent url("../images/priceheader-lft.png") no-repeat top center;
+    background:transparent url("../images/priceheader-lft.png") no-repeat top center;
 }
 .priceHeader:after{
-	background:transparent url("../images/priceheader-rt.png") no-repeat top center;
+    background:transparent url("../images/priceheader-rt.png") no-repeat top center;
 }
 .prodBox .price{
-	background: #1c1a1b;
+    background: #1c1a1b;
     border: 1px solid #373431;
 }
 .btn-default {
     background: #1d1b1c;
 }
 .menuBox .top{
-	background: transparent url("../images/menubox-top.png") no-repeat top center;
+    background: transparent url("../images/menubox-top.png") no-repeat top center;
 }
 .bg-2.topOrnament:before{
-	background: transparent url(../images/bg-2-top.png) no-repeat top center;
+    background: transparent url(../images/bg-2-top.png) no-repeat top center;
 }
 
 .eventBox .date{
-	background: #1d1b1c;
+    background: #1d1b1c;
 }
 .eventBox,.easyBox{
-	border:1px solid rgba(45, 42, 41, 0.5);
+    border:1px solid rgba(45, 42, 41, 0.5);
 }
 .eventBox hr{
-background: rgba(45, 41, 41, 0.5);
+    background: rgba(45, 41, 41, 0.5);
 }
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
-	background-color: #000;
+    background-color: #000;
 }
 .menuBox .inner .price{
-	color:#1b191a;
+    color:#1b191a;
 }
 .galleryBox .top{
-	    background: transparent url(../images/gallerybox-top.png) no-repeat top center;
+    background: transparent url(../images/gallerybox-top.png) no-repeat top center;
 }
 footer{
-	background: transparent url("../images/footer-bg-repeat.jpg") repeat top center;
+    background: transparent url("../images/footer-bg-repeat.jpg") repeat top center;
 }
 footer:before{
-	background: transparent url("../images/footer-bg.jpg") repeat-x center top;
+    background: transparent url("../images/footer-bg.jpg") repeat-x center top;
 }
 footer #toTop{
-	background: transparent url("../images/totop-btn.png") no-repeat center top;
+    background: transparent url("../images/totop-btn.png") no-repeat center top;
 }
 nav li {
     background-color: #424141;
@@ -112,18 +113,22 @@ nav li {
     display: block;
 }
 .menuBox .top{
-	padding: 20px 0 0 0;
+    padding: 20px 0 0 0;
 }
 footer {
     min-height: auto;
 }
 footer .copyright{
-	position: relative;
-	width: 100%;
-	text-align: center;
+    position: relative;
+    width: 100%;
+    text-align: center;
 }
 .media {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 .inner.mybgEvents {
@@ -142,7 +147,7 @@ footer .copyright{
     color: #ffd908;
 }
 .eventBox, .easyBox{
-	background:rgba(0, 0, 0, 0.7);
+    background:rgba(0, 0, 0, 0.7);
 }
 .eventBox .date {
     color: rgb(253, 23, 67);
@@ -154,15 +159,21 @@ footer .copyright{
     width: 300px;
     margin: auto;
     text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 @media (min-width: 990px){
-	.is-sticky .full-sticky-menu .inner{
-		height: 120px !important;
-	}
-	.navbar-default .inner{
-		height: 188px;
-	}
+    .is-sticky .full-sticky-menu .inner{
+        height: 120px !important;
+    }
+    .navbar-default .inner{
+        height: 188px;
+    }
 }

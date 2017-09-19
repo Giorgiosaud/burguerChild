@@ -128,7 +128,7 @@ class zpGalleryGroupItemShortcode extends ctShortcode implements ctVisualCompose
 
     public function getParentShortcodeName()
     {
-        return 'gallery_group';
+        return 'gallery_group_zp';
     }
 
     /**

@@ -19,4 +19,6 @@ function your_parent_theme_setup() {
 	include_once 'fixes/boxes/zpMenuBoxItemShortcode.class.php';
 	include_once 'fixes/boxes/zpMenuBoxShortcode.class.php';
 	include_once 'fixes/menu/zpMenuShortcode.class.php';
+	include_once 'fixes/gallery/zpGalleryGroupShortcode.class.php';
+	include_once 'fixes/gallery/zpGalleryGroupItemShortcode.class.php';
 }

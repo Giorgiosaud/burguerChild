@@ -165,7 +165,7 @@ class zpGalleryGroupShortcode extends ctShortcode implements ctVisualComposerSho
 	public function getVisualComposerInfo() {
 		return new ctVisualComposerInfo( $this, array(
 		    'icon' => 'fa-picture-o',
-            'description'=> __("Gallery with group", "ct_theme"),
+            'description'=> __("Gallery with group Zonapro", "ct_theme"),
         ) );
 	}
 }

@@ -156,7 +156,7 @@ class zpGalleryGroupItemShortcode extends ctShortcode implements ctVisualCompose
 }
 
 
-new ctGalleryGroupItemShortcode();
+new zpGalleryGroupItemShortcode();
 
 
 

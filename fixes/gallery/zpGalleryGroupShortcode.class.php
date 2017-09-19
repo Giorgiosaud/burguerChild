@@ -171,7 +171,7 @@ class zpGalleryGroupShortcode extends ctShortcode implements ctVisualComposerSho
 }
 
 
-new ctGalleryGroupShortcode();
+new zpGalleryGroupShortcode();
 
 
 

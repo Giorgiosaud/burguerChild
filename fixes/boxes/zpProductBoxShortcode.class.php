@@ -44,6 +44,7 @@ class zpProductBoxShortcode extends ctShortcode implements ctVisualComposerShort
 
     public function handle($atts, $content = null)
     {
+        var_dump($atts);
         extract(shortcode_atts($this->extractShortcodeAttributes($atts), $atts));
 
         $mainContainerAtts = array(
@@ -55,7 +56,7 @@ class zpProductBoxShortcode extends ctShortcode implements ctVisualComposerShort
                 $class
             ),
         );
-        // var_dump($atts);
+        
 
         if ($rounded == 'yes' || $rounded == 'true'){
             $imageCode='[rounded_img  size="174" src ="'.$image.'"][/rounded_img]';

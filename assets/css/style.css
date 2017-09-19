@@ -150,6 +150,14 @@ footer .copyright{
 .priceHeader .rt,.priceHeader .lft{
     min-width:0;
 }
+.priceHeader{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 @media (min-width: 990px){
 	.is-sticky .full-sticky-menu .inner{
 		height: 120px !important;

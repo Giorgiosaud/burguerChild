@@ -55,6 +55,7 @@ class zpProductBoxShortcode extends ctShortcode implements ctVisualComposerShort
                 $class
             ),
         );
+        var_dump($image);
 
         if ($rounded == 'yes' || $rounded == 'true'){
             $imageCode='[rounded_img  size="174" src ="'.$image.'"][/rounded_img]';

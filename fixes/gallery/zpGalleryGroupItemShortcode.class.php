@@ -150,7 +150,7 @@ class zpGalleryGroupItemShortcode extends ctShortcode implements ctVisualCompose
 	public function getVisualComposerInfo() {
 		return new ctVisualComposerInfo( $this, array(
 		    'icon' => 'fa-plus-square',
-            'description'=> __('Add item to group', 'ct_theme')
+            'description'=> __('Add item to group Zonapro', 'ct_theme')
         ) );
 	}
 }

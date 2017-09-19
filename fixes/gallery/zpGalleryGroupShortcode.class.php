@@ -88,7 +88,7 @@ class zpGalleryGroupShortcode extends ctShortcode implements ctVisualComposerSho
 		$cover_image = $cover_image ? $cover_image : $firstImageSrc;
 		$html = '
          <ul ' . $this->buildContainerAttributes($mainContainerAtts, $atts) . '>
-        <li class="col-md-3 col-sm-6">
+        <li class="col-sm-12">
         <div class="galleryBox">
             <div class="top">
               <span>' . $title . '</span>

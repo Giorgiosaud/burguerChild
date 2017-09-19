@@ -108,7 +108,7 @@ class zpProductBoxShortcode extends ctShortcode implements ctVisualComposerShort
                 'yes' => 'yes',
                 'no' => 'no',
             )),
-            
+            'prueba'=>'lkdcmslkcm',
             'postscript' => array('label' => __('postcript', 'ct_theme'), 'default' => '', 'type' => 'input', 'help' => __("e.g. *promotion only on weekdays", 'ct_theme')),
             'image' => array('label' => __("image", 'ct_theme'), 'default' => '', 'type' => 'image', 'help' => __("Image source", 'ct_theme')),
             'price' => array('label' => __('price', 'ct_theme'), 'default' => '', 'type' => 'input', 'example' => '456,50'),

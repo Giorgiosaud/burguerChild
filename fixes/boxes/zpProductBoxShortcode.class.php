@@ -49,7 +49,7 @@ class zpProductBoxShortcode extends ctShortcode implements ctVisualComposerShort
 
         $mainContainerAtts = array(
             'class' => array(
-                'prodBox prodboxZp2',
+                'prodBox prodboxZp',
                 ($style == '1') ? '' : 'type' . $style,
                 ($align == 'right') ? 'pull-right' : '',
                 ($align == 'left') ? 'pull-left' : '',

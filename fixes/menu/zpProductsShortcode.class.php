@@ -40,7 +40,7 @@ class zpProductsShortcode extends ctShortcodeQueryable implements ctVisualCompos
 
 
         $products = $this->getCollection($attributes, array('post_type' => 'ct_product'));
-        var_dump($products);
+        // var_dump($products);
         $counter = 0;
 
         $productBoxHtml = '';

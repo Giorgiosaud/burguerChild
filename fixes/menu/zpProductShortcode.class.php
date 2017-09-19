@@ -50,9 +50,9 @@ class zpProductShortcode extends ctShortcodeQueryable  implements ctVisualCompos
         $imageSrc = '';
         if ($images == 'yes') {
             if ($rounded == 'yes') {
-                $imageSrc = $use_thumbnail == 'yes' ? ct_product_featured_image2_src($p->ID, 'product_thumb', 'product_box_2') : ct_get_feature_image_src($p->ID, 'product_box');
+                $imageSrc = $use_thumbnail == 'yes' ? ct_product_featured_image2_src($p->ID, 'product_thumb', 'product_box_2') : ct_get_feature_image_src($p->ID, 'full');
             } else {
-                $imageSrc = $use_thumbnail == 'yes' ? ct_product_featured_image2_src($p->ID, 'product_thumb', 'product_box') : ct_get_feature_image_src($p->ID, 'product_box');
+                $imageSrc = $use_thumbnail == 'yes' ? ct_product_featured_image2_src($p->ID, 'product_thumb', 'product_box') : ct_get_feature_image_src($p->ID, 'full');
             }
         }
 

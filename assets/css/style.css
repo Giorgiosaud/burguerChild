@@ -211,11 +211,11 @@ footer .copyright{
     position: relative;
     margin-bottom: -38px;
 }
-input#contactFormSubmit_922 {
+.btn-default {
     color: #ffd908;
 }
 
-input#contactFormSubmit_922:hover {
+.btn-default:active, .btn-default.active, .btn-default:hover, .btn-default:focus {
     background: #fd1743;
 }
 @media (min-width: 990px){

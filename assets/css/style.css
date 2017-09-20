@@ -199,6 +199,25 @@ footer .copyright{
 .hdr2.special{
     color: #fd1743;
 }
+.galleryBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.galleryBox .top {
+    position: relative;
+    margin-bottom: -38px;
+}
+input#contactFormSubmit_922 {
+    color: #ffd908;
+}
+
+input#contactFormSubmit_922:hover {
+    background: #fd1743;
+}
 @media (min-width: 990px){
     .is-sticky .full-sticky-menu .inner{
         height: 120px !important;

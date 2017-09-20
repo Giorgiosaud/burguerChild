@@ -217,6 +217,7 @@ footer .copyright{
 
 .btn-default:active, .btn-default.active, .btn-default:hover, .btn-default:focus {
     background: #fd1743;
+    color:#fff;
 }
 @media (min-width: 990px){
     .is-sticky .full-sticky-menu .inner{

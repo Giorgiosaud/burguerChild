@@ -169,6 +169,35 @@ footer .copyright{
     -ms-flex-pack: center;
     justify-content: center;
 }
+.hdr5,form label{
+    color: #fff;
+}
+.hdr5 span{
+    border-color:#fff;
+}
+.form-control{
+    background-color:#302f2b;
+}
+.form-control::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #000;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #000;
+   opacity:  1;
+}
+.form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #000;
+   opacity:  1;
+}
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #000;
+}
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #000;
+}
+.hdr2.special{
+    color: #fd1743;
+}
 @media (min-width: 990px){
     .is-sticky .full-sticky-menu .inner{
         height: 120px !important;

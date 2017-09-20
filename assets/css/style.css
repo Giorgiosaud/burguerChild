@@ -177,6 +177,7 @@ footer .copyright{
 }
 .form-control{
     background-color:#302f2b;
+       color:white;
 }
 .form-control::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     color:    #000;

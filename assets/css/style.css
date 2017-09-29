@@ -228,6 +228,14 @@ footer .copyright{
     color:#fff;
 }
 @media (min-width: 990px){
+    .flexslider.flexFull{
+        padding: 0;
+    }
+    .flexslider.flexFull .flex-direction-nav{
+        bottom: 140px;
+        width: 270px;
+        left: 40%;
+    }
     .is-sticky .full-sticky-menu .inner{
         height: 120px !important;
     }

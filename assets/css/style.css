@@ -208,6 +208,9 @@ footer .copyright{
     padding: 0;
 
 }
+.galleryContainer{
+    margin: 0;
+}
 .section > .inner{
     padding: 100px 0 60px 0;
 }
